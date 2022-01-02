@@ -1,0 +1,179 @@
+.heading
+{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    background-image: linear-gradient(to top right, yellow,purple,blue);
+}
+
+.note
+{
+    font-size: 15px;
+    color: black;
+}
+
+body
+{
+ background-size: cover;
+ font-family: 'Pacifico', cursive;
+}
+
+canvas
+{
+    background-color: purple;
+    border: 5px solid Darkblue;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px white;
+}
+
+.play_button
+{
+    width: 130px;
+    font-size: 25px;
+    background-image: linear-gradient(to top right, yellow,purple,blue);
+    color: white;
+}
+
+.stop_button
+{
+    width: 130px;
+    font-size: 25px;
+    background-image: linear-gradient(to top right, yellow,purple,blue);
+    color: white;
+}
+
+.pause_button
+{
+    width: 130px;
+    font-size: 25px;
+    background-image: linear-gradient(to top right, yellow,purple,blue);
+    color: white;
+}
+
+#megh {
+    animation-name: megh;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes megh {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px green;
+    }
+}
+
+#het {
+    animation-name: het;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes het {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px green;
+    }
+}
+
+#mitansha {
+    animation-name: mitansha;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes mitansha {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px green;
+    }
+}
+
+#heading {
+    animation-name: heading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px green;
+    }
+}
